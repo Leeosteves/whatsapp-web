@@ -1,0 +1,25 @@
+{
+  "name": "واتساب",
+  "description": "بسيط، آمن، وموثوق للمراسلة.",
+  "drawer": {
+    "chats": "دردشات",
+    "calls": "مكالمات",
+    "status": "الحالة",
+    "ia": "Meta AI",
+    "favorites": "المفضّلة",
+    "archived": "الأرشيف",
+    "settings": "الإعدادات",
+    "profile": "الملف الشخصي"
+  },
+  "sidebar": {
+    "title": "الدردشات",
+    "input": "بحث",
+    "filters": {
+      "all": "الكل",
+      "unread": "غير مقروءة",
+      "archived": "الأرشيف",
+      "starred": "المميزة",
+      "groups": "المجموعات"
+    }
+  }
+}

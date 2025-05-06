@@ -1,0 +1,25 @@
+{
+  "name": "WhatsApp",
+  "description": "Mensajería simple, segura y confiable.",
+  "drawer": {
+    "chats": "Chats",
+    "calls": "Llamadas",
+    "status": "Estado",
+    "ia": "Meta AI",
+    "favorites": "Favoritos",
+    "archived": "Archivados",
+    "settings": "Configuración",
+    "profile": "Perfil"
+  },
+  "sidebar": {
+    "title": "Chats",
+    "input": "Buscar",
+    "filters": {
+      "all": "Todos",
+      "unread": "No leídos",
+      "archived": "Archivados",
+      "starred": "Destacados",
+      "groups": "Grupos"
+    }
+  }
+}
