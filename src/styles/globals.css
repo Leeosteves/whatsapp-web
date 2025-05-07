@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@source '../../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: #25d366;
+  --color-secondary: #f3f3f3;
+  --color-background: #fcfcfc;
+  --color-text: #1b1b1b;
+  --color-input-background: #ffffff;
+  --color-message-sent: #e8fedd;
+  --color-message-received: #FFFFFF;
+  --color-border: #E0E0E0;
+  --color-scrollbar-thumb: #BCC0C4;
+  --color-scrollbar-track: #F0F2F5;
+}
+
+@layer theme {
+  .dark {
+    --color-primary: #25d366;
+    --color-secondary: #202020;
+    --color-background: #2c2c2c;
+    --color-text: #ffffff;
+    --color-input-background: #222222;
+    --color-message-sent: #005c4b;
+    --color-message-received: #353535;
+    --color-border: #2c2c2c;
+    --color-scrollbar-thumb: #3C454C;
+    --color-scrollbar-track: #111B21;
+  }
+}
